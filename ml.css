@@ -1,0 +1,79 @@
+.selfie{
+  width: 100px;
+}
+#video {
+
+  border: 1px solid black;
+  box-shadow: 2px 2px 3px black;
+  width:320px;
+  height:240px;
+}
+
+#img {
+
+
+    border: 1px solid black;
+    box-shadow: 2px 2px 3px black;
+    width:320px;
+    height:240px;
+    vertical-align: inherit;
+}
+#hello{
+  display: none;
+  visibility: hidden;
+}
+#canvas{
+  display: none;
+  visibility: hidden;
+}
+
+.camera {
+  width: 340px;
+  display:inline-block;
+}
+
+#content {
+  text-align: center;
+
+    width: 1400px;
+
+}
+.topcontainer {
+  width: 100%;
+  padding-bottom: 0;
+
+    margin-bottom: 100px;
+    margin-top: 30px;
+
+}
+.title-img{
+   margin-left: 200px;
+}
+.output {
+
+      margin-left: 450px;
+
+  width: 340px;
+  display:block;
+}
+#startbutton{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#predict{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.text{
+  padding-top: 50px;
+  padding-bottom:50px;
+}
+.box{
+    padding-bottom:90px;
+}
+.middle{
+  background-color: white;
+
+
+}

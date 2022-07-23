@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+	<title>Authentication</title>
+	<meta charset='utf-8'>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&family=Pacifico&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="footer.css">
+<link rel="stylesheet" href="ml.css">
+<link rel="stylesheet" href="progressbar.css">
+	<script src="https://kit.fontawesome.com/02547d1a84.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="card-body mb-4 topstep container-fluid">
+		<div class="steps-form">
+		<!-- Stepper -->
+			<div class="steps-row setup-panel">
+				<div class="steps-step">
+					<a href="#step-9" type="button" class="btn btn-primary btn-circle">1</a>
+					<p>Step 1</p>
+				</div>
+				<div class="steps-step">
+					<a href="#step-10" type="button" class="btn btn-primary btn-circle" >2</a>
+					<p>Step 2</p>
+				</div>
+				<div class="steps-step">
+					<a href="#step-11" type="button" class="btn btn-primary btn-circle" >3</a>
+					<p>Step 3</p>
+				</div>
+			</div>
+			</div>
+		</div>
+
+
+<!-- Title -->
+<div class="middle">
+	 <div class="container-fluid topcontainer">
+		 <div class="row text">
+			 <div id="content" class="col-lg-6">
+				 <h1>WARNING <img class="selfie" src="photos/selfie.png" alt=""></h1>
+ 				<br>
+ 				<h3>Please ensure that you have worn mask before taking the photo</h3></li>
+ 				<br>
+ 				<h3>You will not be allowed to proceed if the authentication fails.</h3></li>
+ 				<br>
+			 </div>
+			 <div class="col-lg-6 ">
+				 <img class="title-img" src="photos/face-mask.png" alt="Not visible">
+			 </div>
+		 </div>
+
+</div>
+
+<div class="container-fluid topcontainer">
+	<div class="row box">
+		<div id="content" class="col-lg-6 camera">
+				<video id="video">Video stream not available.</video>
+				<br>
+				<label id="startbutton" class="btn btn-primary class-b" for="startbutton">
+				<input  type="button" class="d-none" >
+							Take Photo
+				</label>
+		</div>
+			<div id="content" class="col-lg-6 camera">
+			<canvas id="canvas">
+			</canvas>
+			<div >
+				<img id="img" alt="The screen capture will appear in this box.">
+				<br>
+				<label id="predict"class="btn btn-primary class-b" for="predict">
+					 <input  type="button" class="d-none" >
+					 Submit
+			 </label>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+
+</div>
+
+
+<footer id="footer" class="white-section">
+<i class="fa fa-twitter fo" aria-hidden="true"></i>
+<i class="fa fa-facebook fo" aria-hidden="true"></i>
+<i class="fa fa-instagram fo" aria-hidden="true"></i>
+<i class="fa fa-envelope fo" aria-hidden="true"></i>
+	<p>© Copyright 2020 ticket booking</p>
+</footer>
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.4.0/bootbox.min.js">
+
+</script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
+<script src="ml.js">
+</script>
+</body>
+</html>
